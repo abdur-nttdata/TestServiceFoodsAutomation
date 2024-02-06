@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.sf.qa.utils.WebEventListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="environment" value="QA"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.sf.qa.testcases.CasePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="flushExtent"/>
+          <include name="verifycreateCaseTestCase" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.sf.qa.testcases.CasePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

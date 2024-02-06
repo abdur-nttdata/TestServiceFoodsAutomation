@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T17:11:34 IST" name="Suite" finished-at="2024-02-06T17:12:27 IST" duration-ms="53254">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T17:11:34 IST" name="Test" finished-at="2024-02-06T17:12:27 IST" duration-ms="53254">
+      <class name="com.sf.qa.testcases.CasePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.sf.qa.testcases.CasePageTest@3ba987b8]" started-at="2024-02-06T17:11:59 IST" name="setUp" finished-at="2024-02-06T17:12:03 IST" duration-ms="3766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.sf.qa.testcases.CasePageTest.verifycreateCaseTestCase(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifycreateCaseTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.sf.qa.testcases.CasePageTest@3ba987b8]" started-at="2024-02-06T17:12:03 IST" name="verifycreateCaseTestCase" data-provider="getCaseData" finished-at="2024-02-06T17:12:27 IST" duration-ms="23902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Lead2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycreateCaseTestCase -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sf.qa.testcases.CasePageTest@3ba987b8]" started-at="2024-02-06T17:12:27 IST" name="afterMethod" finished-at="2024-02-06T17:12:27 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycreateCaseTestCase status=SUCCESS method=CasePageTest.verifycreateCaseTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.sf.qa.testcases.CasePageTest@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.sf.qa.testcases.CasePageTest -->
+      <class name="com.sf.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:34 IST" name="beforeSuite" finished-at="2024-02-06T17:11:34 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:34 IST" name="setUp" finished-at="2024-02-06T17:11:40 IST" duration-ms="5373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.sf.qa.testcases.LoginPageTest.verifyHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:40 IST" name="verifyHomePage" finished-at="2024-02-06T17:11:47 IST" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:47 IST" name="afterMethod" finished-at="2024-02-06T17:11:47 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=LoginPageTest.verifyHomePage()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:47 IST" name="setUp" finished-at="2024-02-06T17:11:51 IST" duration-ms="3661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.sf.qa.testcases.LoginPageTest.verifyHomePage_1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage_1()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:51 IST" name="verifyHomePage_1" finished-at="2024-02-06T17:11:59 IST" duration-ms="7694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage_1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:11:59 IST" name="afterMethod" finished-at="2024-02-06T17:11:59 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePage_1 status=SUCCESS method=LoginPageTest.verifyHomePage_1()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="flushExtent()[pri:0, instance:com.sf.qa.testcases.LoginPageTest@4a83a74a]" started-at="2024-02-06T17:12:27 IST" name="flushExtent" finished-at="2024-02-06T17:12:27 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtent -->
+      </class> <!-- com.sf.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
